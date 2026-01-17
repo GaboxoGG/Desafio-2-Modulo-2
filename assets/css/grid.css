@@ -1,0 +1,38 @@
+.grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+     "b c c c c c c c c"
+     "b a a a a a a a a "
+     "b a a a a a a a a"
+     "b a a a a a a a a"
+     "b a a a a a a a a"
+     "b a a a a a a a a"
+     "b a a a a a a a a"
+     "d e e e e e e e e";
+}
+
+.cabeza{
+    grid-area: c;
+    background-color: yellow;
+}
+
+.barra{
+    color: white;
+    grid-area: b;
+    background-color: rgb(38, 37, 37);
+}
+
+.cuerpo{
+    grid-area: a;
+}
+
+.pie-lateral{
+    grid-area: d;
+    background-color: burlywood;
+}
+
+.pie-pricipal{
+    grid-area: e;
+    background-color: brown;
+}
