@@ -10,7 +10,8 @@
      "b a a a a a a a a a a a a a a a a"
      "b a a a a a a a a a a a a a a a a"
      "b a a a a a a a a a a a a a a a a"
-     "b a a a a a a a a a a a a a a a a";
+     "b a a a a a a a a a a a a a a a a"
+     "z z z z z z z z z z z z z z z z z";
 }
 
 .cabeza{
@@ -46,12 +47,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    background-color: antiquewhite;
+    padding: 10px;
+    background-color: #faebd7;
     grid-area: a;
 }
 
 .pie-lateral{
-    
+    grid-area: z;
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
